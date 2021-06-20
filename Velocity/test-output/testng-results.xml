@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-20T09:28:28 IST" name="Default suite" finished-at="2021-06-20T09:28:28 IST" duration-ms="67">
+    <groups>
+    </groups>
+    <test started-at="2021-06-20T09:28:28 IST" name="Default test" finished-at="2021-06-20T09:28:28 IST" duration-ms="67">
+      <class name="classtest.classes.practicetest">
+        <test-method is-config="true" signature="beforesuit()[pri:0, instance:classtest.classes.practicetest@130c12b7]" started-at="2021-06-20T09:28:28 IST" name="beforesuit" finished-at="2021-06-20T09:28:28 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:classtest.classes.practicetest@130c12b7]" started-at="2021-06-20T09:28:28 IST" name="beforetest" finished-at="2021-06-20T09:28:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:classtest.classes.practicetest@130c12b7]" started-at="2021-06-20T09:28:28 IST" name="beforeclass" finished-at="2021-06-20T09:28:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:classtest.classes.practicetest@130c12b7]" started-at="2021-06-20T09:28:28 IST" name="beforemethod" finished-at="2021-06-20T09:28:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="Test1()[pri:0, instance:classtest.classes.practicetest@130c12b7]" started-at="2021-06-20T09:28:28 IST" name="Test1" finished-at="2021-06-20T09:28:28 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:classtest.classes.practicetest@130c12b7]" started-at="2021-06-20T09:28:28 IST" name="aftermethod" finished-at="2021-06-20T09:28:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="Test2()[pri:0, instance:classtest.classes.practicetest@130c12b7]" started-at="2021-06-20T09:28:28 IST" name="Test2" finished-at="2021-06-20T09:28:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:classtest.classes.practicetest@130c12b7]" started-at="2021-06-20T09:28:28 IST" name="beforemethod" finished-at="2021-06-20T09:28:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:classtest.classes.practicetest@130c12b7]" started-at="2021-06-20T09:28:28 IST" name="aftermethod" finished-at="2021-06-20T09:28:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:classtest.classes.practicetest@130c12b7]" started-at="2021-06-20T09:28:28 IST" name="afterclass" finished-at="2021-06-20T09:28:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:classtest.classes.practicetest@130c12b7]" started-at="2021-06-20T09:28:28 IST" name="aftertest" finished-at="2021-06-20T09:28:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="aftersuit()[pri:0, instance:classtest.classes.practicetest@130c12b7]" started-at="2021-06-20T09:28:28 IST" name="aftersuit" finished-at="2021-06-20T09:28:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuit -->
+      </class> <!-- classtest.classes.practicetest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
