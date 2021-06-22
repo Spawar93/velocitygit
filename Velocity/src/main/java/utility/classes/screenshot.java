@@ -27,6 +27,7 @@ public class screenshot {
 		  SimpleDateFormat dateFormat = new SimpleDateFormat("dd_MM_YYYY_HH_mm_ss");
 		  Date date = new Date();
 		  String dt=dateFormat.format(date);
+		  
 	    File source=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         File dest= new File("D:\\ProjectScreenshots\\screenshot"+dt+".jpg");
 	    FileHandler.copy(source, dest);

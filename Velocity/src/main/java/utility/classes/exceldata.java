@@ -1,6 +1,8 @@
 package utility.classes;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Cell;
@@ -9,13 +11,14 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-public class exceldata  {
+public class exceldata {
+	
 	
 
-    public static String IdndPassword() {
+	public static void datamethod() throws EncryptedDocumentException, IOException {
 	
 	
-	try {
+	
 		String path = "C:\\Users\\SANDY\\Desktop\\importfile.xlsx";
 		FileInputStream  file = new FileInputStream(path);
 		
@@ -33,24 +36,22 @@ public class exceldata  {
 				Row r = s.getRow(i);
 				 
 				Cell c= r.getCell(j);
-				String value=c.getStringCellValue();
-				System.out.print(value+" ");
-				return value;
+		    try {
+				  String value=c.getStringCellValue();
+				  System.out.print(value+" ");
+				}
+		    catch(Exception illegal)
+		    {
+		    	double value=c.getNumericCellValue();
+				  System.out.print(value+" ");
+		    }
+		    
 			}
-		    System.out.println();
-		 }
-		
+			System.out.println();
 		}	
-		
-		catch(EncryptedDocumentException  r)
-		{
-			System.out.println("Encrypted Document Exception");
-		} 
-		
-		
-		catch(Exception e)
-		{
-			System.out.println("Any Exception");
-		} 
-    }
-  }
+			
+			
+		   
+		 }
+	
+}

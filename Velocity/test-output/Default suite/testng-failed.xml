@@ -3,20 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="classtest.classes.practicetest">
+      <class name="classtest.classes.frameworkkite">
         <methods>
-          <include name="beforeclass"/>
-          <include name="aftertest"/>
-          <include name="Test1"/>
-          <include name="beforemethod"/>
-          <include name="Test2"/>
-          <include name="afterclass"/>
-          <include name="aftersuit"/>
-          <include name="beforetest"/>
-          <include name="aftermethod"/>
-          <include name="beforesuit"/>
+          <include name="luanchbrowser"/>
+          <include name="VerifyKiteLogin"/>
+          <include name="KiteLogout"/>
+          <include name="KiteLoginpin"/>
+          <include name="CloseKiteapp"/>
+          <include name="VerifyKiteFund"/>
+          <include name="kitelaunchLogin1"/>
+          <include name="QuitBrowser"/>
         </methods>
-      </class> <!-- classtest.classes.practicetest -->
+      </class> <!-- classtest.classes.frameworkkite -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
